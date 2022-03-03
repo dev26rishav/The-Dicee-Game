@@ -1,11 +1,11 @@
 let randomNumber1 = Math.floor(Math.random()*6)+1;
-let imagesource = "images/dice" + randomNumber1 + ".png";
+let imagesource = "dice" + randomNumber1 + ".png";
 let image1 = document.querySelectorAll("img")[0];
 image1.setAttribute("src",imagesource);
 
 
 let randomNumber2 = Math.floor(Math.random()*6)+1;
-let imagesource2 = "images/dice" + randomNumber2 + ".png";
+let imagesource2 = "dice" + randomNumber2 + ".png";
 let image2 = document.querySelectorAll("img")[1];
 image2.setAttribute("src",imagesource2);
 
